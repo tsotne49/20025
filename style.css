@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pic {
+    position: relative; 
+    width: 100%;
+    height: 100vh; 
+    background-image: url('images/firstpic.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.center-container {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+}
+
+.centered-link {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    background: white;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    transition: 0.3s ease; 
+}
+
+.month {
+    display: flex;
+    justify-content: center;  /* Center the image horizontally */
+    margin-top: 20px;         /* Add spacing between the carousel and the image */
+  }
+
+  .month img {
+    max-width: 100%;           /* Ensure the image is responsive */
+    height: auto;
+  }
+
+/* Make the GIF cover the space under the slider while maintaining its aspect ratio */
+img[src="images/independence-day-fourth-of-july.gif"] {
+    width: 100%;           /* Make the GIF fill the full width */
+    height: 50vh;          /* Set the height to 50% of the viewport height (adjust as needed) */
+    object-fit: cover;     /* Ensures the GIF covers the container without distortion, cropping if necessary */
+    display: block;        /* Remove any unwanted margin or padding */
+         /* Add space above the GIF */
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    img[src="images/independence-day-fourth-of-july.gif"] {
+      width: 100%;         /* Ensure it still fills the screen width on smaller devices */
+      height: 80vh;        /* Limit the height for smaller screens */
+      object-fit: cover;   /* Prevent stretching on small screens */
+    }
+  }
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+

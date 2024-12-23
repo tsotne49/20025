@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="images/2025.png">
+    <title>Happy New Year 2025!</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /* Ensure images are responsive and maintain aspect ratio */
+      .carousel-inner img {
+        width: 100%;
+        height: auto;
+        max-height: 60vh; /* Default max height */
+      }
+    
+      /* Add custom animations */
+      .carousel-item {
+        transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out; /* Smooth sliding and fading */
+      }
+    
+      .carousel-item.active {
+        opacity: 1; /* Make the active slide visible */
+      }
+    
+      /* Adjust caption styles */
+      .carousel-caption {
+        padding: 8px; /* Reduced padding */
+        border-radius: 10px;
+        max-width: 50%; /* Smaller background width */
+        position: absolute;
+        bottom: 40px; /* Move the caption up to avoid overlap with navigation bars */
+        left: 50%;
+        transform: translateX(-50%); /* Center the caption horizontally */
+        z-index: 1; /* Ensure the caption is above the image but below navigation controls */
+        color: white; /* Text color (white) */
+      }
+    
+      /* Adjust for smaller screens */
+      @media (max-width: 768px) {
+        .carousel-inner img {
+          max-height: 75vh; /* Increase the slider size on tablets */
+        }
+    
+        .carousel-caption {
+          font-size: 12px; /* Smaller font size for mobile */
+          padding: 6px; /* Further reduce padding */
+          max-width: 70%; /* Make the caption fit better */
+          bottom: 30px; /* Move caption slightly higher to avoid navigation bars */
+        }
+    
+        .carousel-caption h5 {
+          font-size: 14px; /* Adjust heading size */
+        }
+    
+        .carousel-caption p {
+          font-size: 10px; /* Smaller paragraph size */
+        }
+      }
+    
+      /* Make the carousel even bigger on phones */
+      @media (max-width: 480px) {
+        .carousel-inner img {
+          max-height: 85vh; /* Increase the slider size even more on small phones */
+        }
+    
+        .carousel-caption {
+          font-size: 14px; /* Larger font size for better readability */
+          padding: 8px; /* Increase padding */
+          max-width: 60%; /* Smaller background for very small screens */
+          bottom: 20px; /* Move caption further down */
+        }
+    
+        .carousel-caption h5 {
+          font-size: 16px; /* Bigger heading size */
+        }
+    
+        .carousel-caption p {
+          font-size: 12px; /* Bigger paragraph size */
+        }
+      }
+    
+      /* Center the image directly below the carousel */
+      .month {
+        display: flex;
+        justify-content: center;  /* Center the image horizontally */
+        margin-top: 20px;         /* Add spacing between the carousel and the image */
+      }
+    
+      .month img {
+        max-width: 100%;           /* Ensure the image is responsive */
+        height: auto;              /* Maintain aspect ratio */
+      }
+    </style>
+    
+    
+    
+    
+    
+</head>
+<body>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <!-- Carousel indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+        </div>
+
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/ianvari.jpeg" class="d-block img-fluid" alt="January">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">January</h5>
+              <p style="font-weight: bold; font-style: italic; color: white;">We had a really tough year together.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/tebervali.jpeg" class="d-block img-fluid" alt="February">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">February</h5>
+              <p style="font-weight: bold; font-style: italic;">love this pic.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/marti.jpeg" class="d-block img-fluid" alt="March">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">March</h5>
+              <p style="font-weight: bold; font-style: italic;">lol.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/aprili.jpeg" class="d-block img-fluid" alt="April">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">April</h5>
+              <p style="font-weight: bold; font-style: italic;">cool one <3 </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/maisi.jpeg" class="d-block img-fluid" alt="May">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">May</h5>
+              <p style="font-weight: bold; font-style: italic;">1000 DAYS !</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/ivnisi.jpeg" class="d-block img-fluid" alt="June">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">June</h5>
+              <p style="font-weight: bold; font-style: italic;">this isn't actually taken in june, i just couldn't find a pic :D</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/ivlisi.jpeg" class="d-block img-fluid" alt="July">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">July</h5>
+              <p style="font-weight: bold; font-style: italic;">but this one's in july</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/agvisto.jpeg" class="d-block img-fluid" alt="August">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">August</h5>
+              <p style="font-weight: bold; font-style: italic;">3 YEARS !</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/sektemberi.jpeg" class="d-block img-fluid" alt="September">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">September</h5>
+              <p style="font-weight: bold; font-style: italic;">football game</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/oktomberi.jpeg" class="d-block img-fluid" alt="October">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">October</h5>
+              <p style="font-weight: bold; font-style: italic;">cute af</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/noemberi.jpeg" class="d-block img-fluid" alt="November">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">November</h5>
+              <p style="font-weight: bold; font-style: italic;">"i got money and hoes"</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/dekemberi.jpeg" class="d-block img-fluid" alt="December">
+            <div class="carousel-caption d-block">
+              <h5 style="font-weight: bold; font-style: italic;">December</h5>
+              <p style="font-weight: bold; font-style: italic;">happy new year my love.</p>
+            </div>
+          </div>
+          </div>
+          
+
+        
+
+        <!-- Navigation controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <img src="images/independence-day-fourth-of-july.gif" alt="">
+
+    
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
